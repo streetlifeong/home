@@ -1,38 +1,344 @@
-.App {
-  text-align: center;
+/* 
+* ola 
+! ola
+? ola
+todo ola
+*/
+
+/* ? Tags */
+
+body{
+    font-family: acme;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    font-family: dancing script;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3, h2{
+    font-family: dancing script;
+    color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section{
+    box-shadow: #6d6d6dd3 0px 5px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ? usefulClass */
+
+.title2{
+    background-color: #F4CD00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title1{
+    background-color: #FF806E;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ? media */
+
+@media (max-width: 1000px){
+    #nav  > ul > a{
+        margin-right: 30px;
+        font-size: 25px;
+    }
+}
+  
+@media (max-width: 800px){
+    #nav{
+        display: none;
+    }
+
+    #nav2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 660px){
+    #homeDiv{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 190px;
+    }
+
+    #homeDiv > div{
+        margin-top: 20px;
+    }
+
+    #projctSection{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+/* ? home */
+    
+.nav2{
+    display: none;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    display: flex;
+}
+
+.line{
+    background-color: black;
+    width: 90px;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    display: block;
+}
+
+
+header{
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+    box-shadow: #6d6d6dd3 0px 5px 5px;
+}
+
+header > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header > div > div > img{
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+}
+
+header > div > nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header > div > nav > ul > a{
+    margin-right: 50px;
+    font-family: dancing script;
+    font-size: 29px;
+
+}
+
+.homeDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 210px;
+}
+
+#homeDiv > div{
+    width: 50%;
+}
+
+.streetLife{
+        background-image: linear-gradient(to bottom, #FC432A, #FEBF60, #5FF5FF);
+        
+        background-clip: text;
+        -webkit-background-clip: text;
+      
+        -webkit-text-fill-color: transparent;
+      
+        color: black;
+
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+}
+
+#magicBoxStreetLife{
+    width: 190px;
+    height: 4px;
+    background-color: #FC432A;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+
+.streetLifeParagraph{
+    color: #F4CD00;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+#futballHome{
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 20px #fc432a;
+}
+
+#donateButton{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#magicSpanForDonateButton{
+    display: block;
+    height: 10px;
+}
+
+/* ? aboutUsDiv */
+
+.aboutUsDiv{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.simpleDiv{
+    height: 250px;
+}
+
+.simpleTitle{
+    width: 300px;
+    height: 40px;
+    border-radius:  0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simpleText{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* ? projects */
+
+.projctSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.projctSection > div{
+    margin-top: 50px;
+}
+
+#magicProjectSpan{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+.projectsDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project{
+    margin: 5px 0 0 5px;
+    height: 50px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width: 300px;
+}
+
+.imageList{
+    display:flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    list-style: none;
+    box-shadow: 20px 20px #fc432a;
+}
+
+.sliderImage{
+    min-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    position: relative;
+}
+
+.sliderButtonDiv{
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+    justify-content: space-around;
+}
+
+.sliderButton{
+    display: flex;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background-color: #3e424d;
+    border-radius: 100%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderButton:hover{
+    cursor: pointer;
+    background-color: #777a81;
+}
+
+/* ? credits */
+
+.creditsDiv{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.credits{
+    margin-left: 35px;
+}
+
+.titleCredits{
+    background-color: #FF806E;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.creditsNames{
+    margin-left: 25px;
+    margin-top: 10px;
 }
