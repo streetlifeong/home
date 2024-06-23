@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/StreetLife/static/css/main.b73f514a.css",
+    "main.js": "/StreetLife/static/js/main.742d7aef.js",
+    "static/js/453.a559a4a7.chunk.js": "/StreetLife/static/js/453.a559a4a7.chunk.js",
+    "static/media/futballHome.jpg": "/StreetLife/static/media/futballHome.2bfa01f8e7a95620faba.jpg",
+    "static/media/futbal3.jpg": "/StreetLife/static/media/futbal3.353d8088d66b84afa827.jpg",
+    "static/media/futbal1.jpg": "/StreetLife/static/media/futbal1.f6b50d46c34131655a3d.jpg",
+    "static/media/futbal2.jpg": "/StreetLife/static/media/futbal2.60f1d969978609c42540.jpg",
+    "static/media/karate2.jpg": "/StreetLife/static/media/karate2.84df12b3ee92e2d34897.jpg",
+    "static/media/handbal1.jpg": "/StreetLife/static/media/handbal1.dbc40ab4720b35338749.jpg",
+    "static/media/skate3.jpg": "/StreetLife/static/media/skate3.6333815f8b78586783e9.jpg",
+    "static/media/karate4.jpg": "/StreetLife/static/media/karate4.66e07a3654724275bba2.jpg",
+    "static/media/karate5.jpg": "/StreetLife/static/media/karate5.b31ede3bea158ca85a23.jpg",
+    "static/media/karate1.jpg": "/StreetLife/static/media/karate1.f5445c5d216965413bc2.jpg",
+    "static/media/karate3.jpg": "/StreetLife/static/media/karate3.c15b9617a34e99c9533e.jpg",
+    "static/media/futbal5.jpg": "/StreetLife/static/media/futbal5.d9cfd0e60502f77d9f8e.jpg",
+    "static/media/skate1.jpg": "/StreetLife/static/media/skate1.e1e54a4d816c33496a89.jpg",
+    "static/media/skate2.jpg": "/StreetLife/static/media/skate2.4520f1c4a3bd92117639.jpg",
+    "static/media/futbal4.jpg": "/StreetLife/static/media/futbal4.e48d712b3374a8876dbb.jpg",
+    "static/media/skate4.jpg": "/StreetLife/static/media/skate4.d29c193ff89333b49232.jpg",
+    "static/media/streetLifeWhite.jpg": "/StreetLife/static/media/streetLifeWhite.5bc2098413dee0ca146a.jpg",
+    "index.html": "/StreetLife/index.html",
+    "main.b73f514a.css.map": "/StreetLife/static/css/main.b73f514a.css.map",
+    "main.742d7aef.js.map": "/StreetLife/static/js/main.742d7aef.js.map",
+    "453.a559a4a7.chunk.js.map": "/StreetLife/static/js/453.a559a4a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b73f514a.css",
+    "static/js/main.742d7aef.js"
+  ]
+}

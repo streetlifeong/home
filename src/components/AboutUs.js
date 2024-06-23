@@ -2,7 +2,7 @@ import { SipleText } from "./SimpleText";
 
 export function AboutUs(){
     return(
-        <section>
+        <section id="aboutUs">
             <h2 className="title1">Sobre Nós</h2>
             <div className="aboutUsDiv">
                 <SipleText title="Missão" paragraph="Proporcionar acesso a atividades esportivas, culturais e educacionais de qualidade para crianças e jovens do bairro Trieste, visando promover o desenvolvimento integral e o empoderamento da comunidade."/>

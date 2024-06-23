@@ -3,7 +3,7 @@ import { sliderImages } from "../assets/sliderImages/sliderImages"
 
 export function Projects() {
     return(
-        <section>
+        <section id="projects">
             <div>
                 <h2 className="title1">Projetos</h2>
 

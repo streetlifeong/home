@@ -4,12 +4,6 @@ import futball from "../assets/futballHome.jpg"
 
 
 let t = false
-/* 
-//todo home
-//todo projects slider
-//todo responsiveness
-todo animation
-*/
 
 export function Home(){
     return (
@@ -19,25 +13,46 @@ export function Home(){
                     <div><img src={streetLifeWhite}/></div>
                     <nav id="nav">
                         <ul>
-                            <a ><li>Inicio</li></a>
-                            <a><li>Missão</li></a>
-                            <a><li>Visão</li></a>
-                            <a><li>Objetivos</li></a>
-                            <a><li>Valores</li></a>
-                            <a><li>Projetos</li></a>
-                            <a><li>Doar</li></a>
+                            <a href="#Home"><li>Inicio</li></a>
+                            <a href="#aboutUs"><li>Missão</li></a>
+                            <a href="#aboutUs"><li>Visão</li></a>
+                            <a href="#aboutUs"><li>Objetivos</li></a>
+                            <a href="#aboutUs"><li>Valores</li></a>
+                            <a href="#projects"><li>Projetos</li></a>
+                            <a onClick={() => {
+                                    window.prompt("Copie para área de transferência: Ctrl+C e tecle Enter",
+                                     "hello!!!")
+                                    }}><li>Doar</li></a>
                         </ul>
                     </nav>
+
+                    <div id="hidden">
+                        <nav className="nav3" id="nav3">
+                            <ul id="legendUl">
+                            <a href="#Home"><li>Inicio</li></a>
+                            <a href="#aboutUs"><li>Missão</li></a>
+                            <a href="#aboutUs"><li>Visão</li></a>
+                            <a href="#aboutUs"><li>Objetivos</li></a>
+                            <a href="#aboutUs"><li>Valores</li></a>
+                            <a href="#projects"><li>Projetos</li></a>
+                                <a onClick={() => {
+                                    window.prompt("Copie para área de transferência: Ctrl+C e tecle Enter",
+                                     "hello!!!")
+                                    }}><li>Doar</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+
                     <div className="nav2" id="nav2">
                         <div id="burguerMenu" onClick={() => {
+                            let menu = document.getElementById("nav3")
                             if(t){
-
+                                menu.style.display = "none"
                                 t = false
                             }else{
+                                menu.style.display = "block"
                                 t = true
-                            }
-
-                            
+                            }                   
                         }}>
                             <span className="line line1"></span>
                             <span className="line line2"></span>
@@ -67,7 +82,9 @@ export function Home(){
                     </div>
                 </div>
 
-                <div className="title1" id="donateButton"><h2 >Doar</h2></div>
+                <a href="#">
+                    <div className="title1" id="donateButton"><h2 >Doar</h2></div>
+                </a>
                 <span id="magicSpanForDonateButton"></span>
             </div>
         </section>

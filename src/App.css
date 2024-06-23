@@ -24,6 +24,14 @@ section{
     box-shadow: #6d6d6dd3 0px 5px 5px;
 }
 
+a{
+    text-decoration: none;
+}
+
+nav > ul > a {
+    color: #000000;
+}
+
 /* ? usefulClass */
 
 .title2{
@@ -53,6 +61,20 @@ section{
         font-size: 25px;
     }
 }
+
+@media (min-width: 801px){
+    #nav{
+        display: block;
+    }
+
+    #nav2{
+        display: none;
+    }
+    
+    #hidden{
+        display: none;
+    }
+}
   
 @media (max-width: 800px){
     #nav{
@@ -63,6 +85,10 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    #hidden{
+        display: block;
     }
 }
 
@@ -87,8 +113,9 @@ section{
     
 .nav2{
     display: none;
+    margin-top: -20px;
     width: 90px;
-    height: 90px;
+    height: 60px;
     cursor: pointer;
     display: flex;
 }
@@ -102,11 +129,36 @@ section{
     display: block;
 }
 
+.nav3{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    background-color: white;
+    display: none;
+}
+
+#legendUl{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#legendUl > a {
+    padding: 5px;
+    border: 2px solid black;
+    list-style: none;
+    width: 100%;
+    margin-right: 50px;
+    font-family: dancing script;
+    font-size: 29px;
+}
 
 header{
     position: fixed;
     background-color: #ffffff;
     width: 100%;
+    height: 70px;
     top: 0;
     z-index: 10;
 
@@ -311,6 +363,58 @@ header > div > nav > ul > a{
 .sliderButton:hover{
     cursor: pointer;
     background-color: #777a81;
+}
+
+/* ? */
+
+#donateSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.donateDiv{
+    width: 60%;
+    box-shadow: #3e424d 2px 2px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#doar{
+    margin-top: 10px;
+    color: black;
+}
+
+.donatePayDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.donatePay{
+    height: 50px;
+    box-shadow: #3e424d 2px 2px;
+}
+
+.donatePay:hover{
+    border: 1px solid black;
+}
+
+#donateSection > span{
+    display: block;
+    height: 30px;
+}
+
+.qrcode{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
 }
 
 /* ? credits */
