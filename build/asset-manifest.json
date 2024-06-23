@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/StreetLife/static/css/main.b73f514a.css",
-    "main.js": "/StreetLife/static/js/main.742d7aef.js",
+    "main.css": "/StreetLife/static/css/main.f7412a3f.css",
+    "main.js": "/StreetLife/static/js/main.ef9213c4.js",
     "static/js/453.a559a4a7.chunk.js": "/StreetLife/static/js/453.a559a4a7.chunk.js",
     "static/media/futballHome.jpg": "/StreetLife/static/media/futballHome.2bfa01f8e7a95620faba.jpg",
     "static/media/futbal3.jpg": "/StreetLife/static/media/futbal3.353d8088d66b84afa827.jpg",
@@ -19,14 +19,15 @@
     "static/media/skate2.jpg": "/StreetLife/static/media/skate2.4520f1c4a3bd92117639.jpg",
     "static/media/futbal4.jpg": "/StreetLife/static/media/futbal4.e48d712b3374a8876dbb.jpg",
     "static/media/skate4.jpg": "/StreetLife/static/media/skate4.d29c193ff89333b49232.jpg",
+    "static/media/qrcode.jpg": "/StreetLife/static/media/qrcode.48b7444cdaf7032003b7.jpg",
     "static/media/streetLifeWhite.jpg": "/StreetLife/static/media/streetLifeWhite.5bc2098413dee0ca146a.jpg",
     "index.html": "/StreetLife/index.html",
-    "main.b73f514a.css.map": "/StreetLife/static/css/main.b73f514a.css.map",
-    "main.742d7aef.js.map": "/StreetLife/static/js/main.742d7aef.js.map",
+    "main.f7412a3f.css.map": "/StreetLife/static/css/main.f7412a3f.css.map",
+    "main.ef9213c4.js.map": "/StreetLife/static/js/main.ef9213c4.js.map",
     "453.a559a4a7.chunk.js.map": "/StreetLife/static/js/453.a559a4a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b73f514a.css",
-    "static/js/main.742d7aef.js"
+    "static/css/main.f7412a3f.css",
+    "static/js/main.ef9213c4.js"
   ]
 }
